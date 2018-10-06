@@ -8,3 +8,7 @@ var playlist = {
   Lizzo : 'Truth Hurts'
   Robyn : 'Dancing on My Own'
 }
+
+function updatePlaylist(playlist, artistName, songTitle) {
+  return playlist.[artistName] = songTitle
+}
